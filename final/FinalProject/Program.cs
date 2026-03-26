@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello FinalProject World!");
+        AppEngine engine = new AppEngine();
+        engine.MainLoop();
     }
 }
